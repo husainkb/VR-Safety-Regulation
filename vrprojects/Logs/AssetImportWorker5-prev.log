@@ -1,0 +1,302 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.25f1 (68ef2c4f8861) revision 6876972'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 15740 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/UnityProject/vrprojects
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+53395
+Successfully changed project path to: D:/UnityProject/vrprojects
+D:/UnityProject/vrprojects
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17880] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 3421730703 [EditorId] 3421730703 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LN0N6MC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17880] Host "[IP] 192.168.1.7 [Port] 0 [Flags] 2 [Guid] 3421730703 [EditorId] 3421730703 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LN0N6MC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 105.32 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/vrprojects/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7870 MB
+    Driver:   31.0.12002.92
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007994 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 244 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 97.18 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.807 seconds
+Domain Reload Profiling:
+	ReloadAssembly (808ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (656ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (77ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (516ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (317ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007060 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\vrprojects\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProject\vrprojects\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 96.10 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Package Manager log level set to [2]
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.86.1
+Mono: successfully reloaded assembly
+- Completed reload, in  1.712 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1712ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1525ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (1084ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (767ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.46 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 5973 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (427.2 KB). Loaded Objects now: 6451.
+Memory consumption went from 228.5 MB to 228.1 MB.
+Total: 3.712100 ms (FindLiveObjects: 0.544900 ms CreateObjectMapping: 0.179000 ms MarkObjects: 2.812800 ms  DeleteObjects: 0.174800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 160979.718302 seconds.
+  path: Assets/Avatar 1
+  artifactKey: Guid(9c18134e60372ef40a4c157d491d4de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatar 1 using Guid(9c18134e60372ef40a4c157d491d4de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3897b7c5f1292603035b6dc44f09163') in 0.011474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Avatar 1/Avatar 1@Sitting Idle.fbx
+  artifactKey: Guid(c4bdfde3a39c72f47ada66f1ad9f0186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatar 1/Avatar 1@Sitting Idle.fbx using Guid(c4bdfde3a39c72f47ada66f1ad9f0186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e3310e9690ef4a672d395970d4bff7') in 0.221779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2017.795280 seconds.
+  path: Assets/Avatar 2/Avatar 2@Sitting Idle.fbx
+  artifactKey: Guid(1c5ea28149db73945bfe665998ee24ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatar 2/Avatar 2@Sitting Idle.fbx using Guid(1c5ea28149db73945bfe665998ee24ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3a2917cb6fd360ec4850085947a41a') in 0.074517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Avatar 2/Avatar 2@Standing Clap.fbx
+  artifactKey: Guid(f075c47ab0e2bea4d82a73c0fc6b4f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatar 2/Avatar 2@Standing Clap.fbx using Guid(f075c47ab0e2bea4d82a73c0fc6b4f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0dcf035129c1cbf9fc4658abd522b8') in 0.106310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.720989 seconds.
+  path: Assets/Avatar 3/Avatar 3@Sitting Idle.fbx
+  artifactKey: Guid(580e83193e73a1141a0078a627b393af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatar 3/Avatar 3@Sitting Idle.fbx using Guid(580e83193e73a1141a0078a627b393af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e823ee089feb313115c9aa59eb83e2b4') in 0.040078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Avatar 3/Avatar 3@Standing Clap.fbx
+  artifactKey: Guid(3e79935c7b1f02143bf641db9e2b3a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatar 3/Avatar 3@Standing Clap.fbx using Guid(3e79935c7b1f02143bf641db9e2b3a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93dde9869c090f9c797eddb5590aa663') in 0.109057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.590873 seconds.
+  path: Assets/Avatar 4/Avatar 4@Sitting Idle.fbx
+  artifactKey: Guid(4b2893d2fe950fb49b2d1cf5fc4662d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatar 4/Avatar 4@Sitting Idle.fbx using Guid(4b2893d2fe950fb49b2d1cf5fc4662d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba55e840ce77c7e024ded238f425ef1') in 0.042781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Avatar 4/Avatar 4@Standing Clap.fbx
+  artifactKey: Guid(a99f5ca7cb2914e4388588ec2d47160c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatar 4/Avatar 4@Standing Clap.fbx using Guid(a99f5ca7cb2914e4388588ec2d47160c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623d7300098210d36fd51aeee9ce59e4') in 0.081568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.858731 seconds.
+  path: Assets/Avatar 5/Avatar 5@Sitting Idle.fbx
+  artifactKey: Guid(e5bb5f8cb964efd40b4f540f24a8aece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatar 5/Avatar 5@Sitting Idle.fbx using Guid(e5bb5f8cb964efd40b4f540f24a8aece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ffebca9775bf4b68f219f4aa68de08') in 0.042333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Avatar 5/Avatar 5@Standing Clap.fbx
+  artifactKey: Guid(ce5bb50fa50805d46872d05b1dee6028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatar 5/Avatar 5@Standing Clap.fbx using Guid(ce5bb50fa50805d46872d05b1dee6028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187595297d2d2cd7754aead576e62604') in 0.082777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.492199 seconds.
+  path: Assets/Avatar 1/Avatar 1@Standing Clap 1.fbx
+  artifactKey: Guid(612a53bc7d3956d428f462a43cd75bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatar 1/Avatar 1@Standing Clap 1.fbx using Guid(612a53bc7d3956d428f462a43cd75bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689d16f76a17f838cdd41cef1426f927') in 0.070279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3875.367411 seconds.
+  path: Assets/Avatar 6/Avatar 6@Sitting Idle.fbx
+  artifactKey: Guid(6e8ec84c636c91441b7441be7843f081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatar 6/Avatar 6@Sitting Idle.fbx using Guid(6e8ec84c636c91441b7441be7843f081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae65eea2989d5abf9dd0515f09f9b1e') in 0.071578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.399902 seconds.
+  path: Assets/Avatar 7/Avatar 7@Sitting Idle.fbx
+  artifactKey: Guid(2c83a5746ade78c45a139b0325c67db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatar 7/Avatar 7@Sitting Idle.fbx using Guid(2c83a5746ade78c45a139b0325c67db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bb954ec5cf1d73007046f3b9e2a448') in 0.040798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Avatar 7/Avatar 7@Standing Clap.fbx
+  artifactKey: Guid(eae3a178ed5c9c4408b3304f285ef576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatar 7/Avatar 7@Standing Clap.fbx using Guid(eae3a178ed5c9c4408b3304f285ef576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d690d15e5d92083129169e071d58095') in 0.096597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.647792 seconds.
+  path: Assets/Avatar 5/Wolf3D_Eye.mat
+  artifactKey: Guid(a4fcc0e4a6bb3254db23c75ce02956e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatar 5/Wolf3D_Eye.mat using Guid(a4fcc0e4a6bb3254db23c75ce02956e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3830bc8301da1df0fdab8ef112f6f23') in 0.027922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 670.136924 seconds.
+  path: Assets/Oculus Hands/Materials/Hands_striped.mat
+  artifactKey: Guid(2053692007a444b4298a3c679f98a1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus Hands/Materials/Hands_striped.mat using Guid(2053692007a444b4298a3c679f98a1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e130e4231befb05087993bf036e763') in 0.117889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.272588 seconds.
+  path: Assets/texture/Wolf3D_Eye.mat
+  artifactKey: Guid(aef2bf06a43c7e247a2748f912ed7b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/Wolf3D_Eye.mat using Guid(aef2bf06a43c7e247a2748f912ed7b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ded8657c59cd40b259bcc9ad711d5a5') in 0.011668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/texture/Wolf3D_Outfit_Bottom.mat
+  artifactKey: Guid(40f0af21117475941820b499bc79ae69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/Wolf3D_Outfit_Bottom.mat using Guid(40f0af21117475941820b499bc79ae69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b3905dd24f4d49e5522af72f5f4481') in 0.039957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/texture/Wolf3D_Hair.mat
+  artifactKey: Guid(30e304d7ded42614b8d1cc354e9d0de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/Wolf3D_Hair.mat using Guid(30e304d7ded42614b8d1cc354e9d0de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fdf7759817402de98e68489ba54b02') in 0.021819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/texture/Wolf3D_Teeth.mat
+  artifactKey: Guid(dc180156d2002974395d58a88dfc2606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/texture/Wolf3D_Teeth.mat using Guid(dc180156d2002974395d58a88dfc2606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b409604df83aad0ad7eb3b4f8706b8a') in 0.008602 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
